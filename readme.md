@@ -7,9 +7,8 @@ All TextInput props
 
 ### Super Props
 
-**onPauseText** function
+**`onPauseText`** function  
 Calls the provided function `pauseDelay` milliseconds after the last `onChangeText`.
 
-**pauseDelay** number
-*Default: 500*
-The number of milliseconds to wait after the last text change before firing `onPauseText`.
+**`pauseDelay`** number  
+The number of milliseconds to wait after the last text change before firing `onPauseText`. The default value is 500.
