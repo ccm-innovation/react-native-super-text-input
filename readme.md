@@ -2,6 +2,11 @@
 
 > Super charged TextInput for React Native
 
+### Installation
+```
+npm install --save react-native-super-textinput
+```
+
 ### Props
 All TextInput props
 
