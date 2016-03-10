@@ -17,3 +17,17 @@ Calls the provided function `pauseDelay` milliseconds after the last `onChangeTe
 
 **`pauseDelay`** number  
 The number of milliseconds to wait after the last text change before firing `onPauseText`. The default value is 500.
+
+
+### Example
+```JavaScript
+var SuperTextInput = require('react-native-super-textinput')
+
+
+<SuperTextInput
+  onPauseText={() => console.log("You aren't typing anymore!")}
+  normalTextInputProp="foo"
+  anotherTextInputProp={bar}
+/>
+
+```
