@@ -7,7 +7,7 @@ let {
 } = React
 let {
   TextInput
-} = React
+} = ReactNative
 
 class SuperTextInput extends Component {
 
