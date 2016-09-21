@@ -1,9 +1,12 @@
-let React = require('react-native')
+let React = require('react')
+let ReactNative = require('react-native')
 
 let {
   Component,
-  TextInput,
   PropTypes
+} = React
+let {
+  TextInput
 } = React
 
 class SuperTextInput extends Component {
