@@ -1,6 +1,6 @@
 {
   "name": "react-native-super-text-input",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Super charged TextInput for React Native",
   "main": "index.js",
   "scripts": {
